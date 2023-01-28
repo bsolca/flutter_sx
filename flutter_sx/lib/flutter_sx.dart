@@ -1,7 +1,6 @@
-
 import 'flutter_sx_platform_interface.dart';
 
-class FlutterSx {
+class SX {
   Future<String?> getPlatformVersion() {
     return FlutterSxPlatform.instance.getPlatformVersion();
   }
